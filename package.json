@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "cobys-epic-server-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for cobys-epic-server",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node ./pkg/index.js"
+  },
+  "keywords": [],
+  "author": "Jacoby-Y",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.14.9",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
